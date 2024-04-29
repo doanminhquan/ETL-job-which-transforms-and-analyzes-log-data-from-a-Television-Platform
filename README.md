@@ -4,7 +4,8 @@ The objective of this project is to implement a robust data pipeline for transfo
 Tech stack: PySpark, MySQL, Power BI, Python.
 
 # Architecture
-![alt text](Architecture.drawio.png)
+![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/3b2d08de-e2b6-42b0-872f-bbded6c303f4)
+
 
 # Raw data
 -Log data is stored as Parquet files organized by date and stored within the file system. Diretory structure:
@@ -31,7 +32,7 @@ root
  |-- userPlansMap: array (nullable = true)
  |    |-- element: string (containsNull = true)
 ```
-![alt text](image.png)
+![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/4d3fa563-fab1-45ae-9dbe-6821f7170d71)
 
 # Processing data
 Processing raw data to obtain valuable clean data:
@@ -55,10 +56,10 @@ root
  |-- trending_type: string (nullable = false)
  |-- previous: string (nullable = false)
  ```
-![alt text](image-cleansed.png)
-![alt text](image-1.png)
+![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/ff90e35b-da09-426e-aeef-ef8b8c994aa3)
+![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/63e1f4ca-0cba-4699-a0b1-05bb53e4344d)
 
 # Visualizing Data with Power BI
-![alt text](image-2.png)
-![alt text](image-3.png)
+![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/64dd3ff8-3fb4-4269-ad1a-6b49aebb1b11)
+![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/c559a879-05ba-4a84-8f04-6e721ccbc81f)
 -Embedded dashboard will be updated later.
