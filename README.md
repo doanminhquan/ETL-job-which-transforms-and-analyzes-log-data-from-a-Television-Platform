@@ -36,13 +36,13 @@ root
 
 # Processing data
 Processing raw data to obtain valuable clean data:
--Extract the user_id and keyword columns from the log data for each day, filtering out any null values.
--Union the filtered data for each day to get data by month.
--Use window functions and the row_number function in PySpark to identify the most searched keyword of each month.
--Map the most searched keyword found to its corresponding category using data from 'map_search_category.csv'
--Union two dataframes (June & July) to analyze trend of users.
--Create two new columns: 'trending_type' and 'previous' to determine if a category is trending and how it has changed.
--Import processed data into a data warehouse which is MySQL for further analysis and insights.
+- Extract the user_id and keyword columns from the log data for each day, filtering out any null values.
+- Union the filtered data for each day to get data by month.
+- Use window functions and the row_number function in PySpark to identify the most searched keyword of each month.
+- Map the most searched keyword found to its corresponding category using data from 'map_search_category.csv'
+- Union two dataframes (June & July) to analyze trend of users.
+- Create two new columns: 'trending_type' and 'previous' to determine if a category is trending and how it has changed.
+- Import processed data into a data warehouse which is MySQL for further analysis and insights.
 
 # Cleansed data
 - Cleansed data schema
@@ -57,6 +57,8 @@ root
  |-- previous: string (nullable = false)
  ```
 ![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/ff90e35b-da09-426e-aeef-ef8b8c994aa3)
+
+- Data in MySQL
 ![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/63e1f4ca-0cba-4699-a0b1-05bb53e4344d)
 
 # Visualizing Data with Power BI
