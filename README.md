@@ -8,7 +8,7 @@ Tech stack: PySpark, MySQL, Power BI, Python.
 
 
 # Raw data
--Log data is stored as Parquet files organized by date and stored within the file system. Diretory structure:
+- Log data is stored as Parquet files organized by date and stored within the file system. Diretory structure:
 ```
 root
 ├── 20220601
@@ -45,7 +45,7 @@ Processing raw data to obtain valuable clean data:
 -Import processed data into a data warehouse which is MySQL for further analysis and insights.
 
 # Cleansed data
--Cleansed data schema
+- Cleansed data schema
 ```
 root
  |-- user_id: string (nullable = true)
@@ -62,4 +62,4 @@ root
 # Visualizing Data with Power BI
 ![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/64dd3ff8-3fb4-4269-ad1a-6b49aebb1b11)
 ![image](https://github.com/doanminhquan/The_ETL_job_transforms_and_analyzes_log_data_from_Television_Platform/assets/89577025/c559a879-05ba-4a84-8f04-6e721ccbc81f)
--Embedded dashboard will be updated later.
+- Embedded dashboard will be updated later.
