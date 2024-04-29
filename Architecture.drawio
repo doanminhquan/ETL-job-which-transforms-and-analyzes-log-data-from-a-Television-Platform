@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net" modified="2024-04-26T22:05:22.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="U3d1vt_3N4GVxzWiu6QU" version="24.3.0" type="device">
+  <diagram name="Page-1" id="cuwXVuaK3tWtKSIcdj7f">
+    <mxGraphModel dx="1290" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QQMZTV7QWb8mYGWgKniJ-1" target="QQMZTV7QWb8mYGWgKniJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="305" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-2" value="Log data storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1920px-Apache_Spark_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="224.4" height="116.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-6" value="Data processing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QQMZTV7QWb8mYGWgKniJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://lotusacademy.edu.vn/api/media/download/772/MySQL.png;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="251.17" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.556;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QQMZTV7QWb8mYGWgKniJ-5" target="QQMZTV7QWb8mYGWgKniJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-10" value="Store in data warehouse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1024px-New_Power_BI_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-17" value="&lt;span data-sider-select-id=&quot;363b408b-6d5c-40a5-bd6f-aadfb7fafb60&quot;&gt;&lt;font data-sider-select-id=&quot;f0d9193f-7240-4f69-8e06-c8688ce868bd&quot; style=&quot;font-size: 36px;&quot;&gt;Power BI&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="642" y="430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQMZTV7QWb8mYGWgKniJ-18" value="Visualize and analytics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="336" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
