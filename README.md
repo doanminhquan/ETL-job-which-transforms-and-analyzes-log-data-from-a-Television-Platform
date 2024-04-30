@@ -1,6 +1,7 @@
 # Objectives
 ### Overview
-The objective of this project is to implement a robust data pipeline for transforming raw Operational Log (OLTP) data from a television system into structured, analytical data for the purpose of generating meaningful insights through a Customer 360 model. The pipeline will facilitate the Extract, Transform, Load (ETL) process to transition data from its transactional state to an analytical state, enabling efficient querying and analysis.
+The objective of this project is to implement a data pipeline for transforming raw Operational Log (OLTP) data from a television system into structured, analytical data for the purpose of generating meaningful insights through a Customer 360 model. The pipeline will facilitate the Extract, Transform, Load (ETL) process to transition data from its transactional state to an analytical state, enabling efficient querying and analysis.
+
 Tech stack: PySpark, MySQL, Power BI, Python.
 
 # Architecture
